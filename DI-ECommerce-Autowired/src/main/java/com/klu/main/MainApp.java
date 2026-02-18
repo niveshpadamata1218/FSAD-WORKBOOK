@@ -12,8 +12,5 @@ public class MainApp {
   ApplicationContext cn=new AnnotationConfigApplicationContext(AppConfig.class);
   Order or=cn.getBean(Order.class);
   or.display();
-  
-
  }
-
 }

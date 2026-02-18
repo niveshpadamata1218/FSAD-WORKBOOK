@@ -29,7 +29,7 @@ public class CalciController {
     @GetMapping("/multiply/{a}/{b}")
     public int multiply(@PathVariable int a, @PathVariable int b) {
         return service.multiple(a, b);
-    }
+    }q
 
     @GetMapping("/division")
     public double division(@RequestParam int a, @RequestParam int b) {
